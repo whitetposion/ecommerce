@@ -1,19 +1,19 @@
-import React from 'react'
-import Head from './Head'
-import "./Header.css"
-import Search from './Search'
-import Navbar from './Navbar'
+import React from 'react';
+import Head from './Head';
+import "./Header.css";
+import Search from './Search';
+import Navbar from './Navbar';
 
 const Header = () => {
   return (
     <>
-    <Head/>
-    <Search/>
-    <Navbar/>
+      <Head/>
+      <Search/>
+      <Navbar/>
 
 
     </>
-  )
-}
+  );
+};
 
 export default Header
