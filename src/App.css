@@ -67,6 +67,17 @@ input, button {
 .boxShadow {
   box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
 }
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e94560;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color:#fff;
+  margin: 10px;
+}
 /*--------category------*/
 .contentWidth {
   width: 77%;
@@ -210,3 +221,17 @@ input, button {
   cursor: pointer;
 }
 /*--------control-btn----*/
+/*--------heading--------*/
+.heading .heading-left i {
+  font-size: 30px;
+}
+.heading {
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right,
+.heading .heading-right i {
+  text-align: right;
+  color: grey;
+}
+/*--------heading--------*/
