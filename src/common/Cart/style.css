@@ -33,7 +33,7 @@
 .cart-items .cart-details h4 {
      font-size: 15px;
      font-weight: 400;
-     margin-top: 50px;
+     margin-top: 20px;
      color: grey;
 }
 .cart-items h4 span {
@@ -41,7 +41,7 @@
      margin-left: 20px;
      font-weight: 500;
 }
-.removeCart {
+.removeCart  {
      background: none;
      font-size: 25px;
      text-align: right;
@@ -59,6 +59,8 @@
 }
 .incCart {
      background-color: none;
+     border: 1px solid rgb(3 0 71 / 9%);
+     color: #e94560;
 }
 .cartControl .incCart:hover{
      background-color: green;

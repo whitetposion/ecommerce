@@ -5,18 +5,18 @@ import './style.css'
 
 const TopCart = () => {
      const settings = {
-          dots: true,
+          dots: false,
           infinite: true,
           speed: 500,
           slidesToShow: 3,
           slidesToScroll: 1 , 
           autoplay:true
-        };
+        }
   return (
     <>
     <Slider {...settings}>
      {
-          Tdata.map(( value , index)=> {
+          Tdata.map(( value, index)=> {
                return (
                     <div className="box product" key={index}>
                          <div className="nametop d_flex">

@@ -26,4 +26,4 @@ const Tdata = [
      },
    ]
    
-   export default Tdata
+export default Tdata
