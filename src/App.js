@@ -15,7 +15,7 @@ function App() {
 
   const addToCart = (product) => {
     const productExit = cartItem.find((item) => item.id ===product.id)
-
+    
     if (productExit) {
       setCartItem(cartItem.map((item) =>
       (item.id === product.id? {...productExit, qty:productExit.qty+1 }: item)))
