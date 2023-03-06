@@ -6,7 +6,7 @@ import "./Home.css"
 const Home = () => {
   return (
     <>
-          <section ClassName = "home">
+          <section className = "home">
             <div className="container d_flex">
               <Categories/>
               <Slider/>

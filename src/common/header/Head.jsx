@@ -17,7 +17,7 @@ const Head = () => {
                          <span>🏳️‍⚧️</span>
                          <label htmlFor=" ">EN</label>
                          <span>🏳️‍⚧️</span>
-                         <label htmlFor= ''>USD</label>
+                         <label htmlFor= ''>India</label>
                     </div>
                </div>
           </section>
