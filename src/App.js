@@ -7,6 +7,7 @@ import Data  from "./components/flashDeals/Data"
 import { useState } from 'react';
 import Cart from './common/Cart/Cart';
 import Sdata from './components/shops/Sdata';
+import Footer from './common/footer/Footer';
 
 function App() {
   // fetch data from database
@@ -41,6 +42,7 @@ function App() {
           <Route path='/' element={< Pages productItems={productItems} addToCart={addToCart} shopItems = { shopItems }/>}/>
           <Route path='/cart' element={< Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={ decreaseQty}/>}/>
         </Routes>
+        <Footer/>
       </Router>
       </>
     </>
